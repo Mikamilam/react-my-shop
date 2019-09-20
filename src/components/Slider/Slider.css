@@ -1,0 +1,49 @@
+@font-face {
+	font-family: 'OpenSans';
+	src: url(../../fonts/OpenSans-Regular.ttf);
+	font-weight: normal;
+}
+
+.sr-only {
+	display: none;
+}
+
+.carousel-control-prev-icon {
+	position: absolute;
+	top: 357px;
+	left: 100px;
+
+	z-index: 10;
+}
+
+.carousel-control-prev-icon:before {
+	content: "\003C";
+	color: #cdcdcd;
+	font-size: 50px;
+	font-family: 'OpenSans', sans-serif;
+	background-color: white;
+	border-radius: 50%;
+	padding: 0 20px;
+}
+
+
+.carousel-control-next-icon {
+	position: absolute;
+	top: 357px;
+	right: 100px;
+	/*border: 20px solid transparent;	
+	border-left: 20px solid green;*/
+	z-index: 10;
+}
+
+.carousel-control-next-icon:after {
+	content: "\003E";
+	color: #cdcdcd;
+	font-size: 50px;
+	font-family: 'OpenSans', sans-serif;
+	background-color: white;
+	padding: 0 20px;
+	border-radius: 50%;
+}
+
+

@@ -1,0 +1,20 @@
+.title h1 {
+	font-family: 'OpenSans', sans-serif;
+	font-weight: normal;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #635f57;
+	margin: 25px 0 0 188px;
+	padding: 0;
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 74%;
+	margin-left: auto;
+	margin-right: auto;
+}
+

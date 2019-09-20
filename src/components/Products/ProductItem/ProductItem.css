@@ -1,0 +1,33 @@
+.productItem {
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+	margin: 22px 0;
+	height: 300px;
+	width: 200px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.product-img {
+	height: 220px;
+}
+
+.info {
+	display: flex;
+	margin: 17px 0 9px 0;
+	justify-content: space-between;
+}
+
+.namePrice h5 {
+	margin: 0;
+	padding: 0;
+}
+
+.price {
+	color: #7db122;
+	margin-top: 10px;
+}
+
+.button {
+	height: 50px;
+}
